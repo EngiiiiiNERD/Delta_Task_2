@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>MENTEE-GAME</title>
+   <link rel="stylesheet" type="text/css" href="Game_Mentee.css">
+</head>
+<body>
+<canvas id='canvas' width='800' height='600'></canvas>
+<hr>
+<span id='start' onclick='start()'>START THE GAME</span>
+<span id='restart' onclick='restart()'>RESTART</span>
+<span id='score'>SCORE :-</span>
+
+
+<audio id="myAudio">
+  <source src="Red-Convertible.mp3" type="audio/mp3">
+</audio>
+<audio id="HitSound">
+	<source src="hit.mp3" type="audio/mp3">
+</audio>
+<span class='Audio' onclick='playAudio()'>Play Audio</span>
+<span class='Audio' onclick='pauseAudio()'>Pause Audio</span>
+<span id='enemy' onclick='addEnemy()'>Add Enemy</span>
+<script type="text/javascript" src='RANDOM_OBSTACLES.js'></script>
+</body>
+</html>

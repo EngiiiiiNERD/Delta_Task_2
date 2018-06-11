@@ -1,0 +1,76 @@
+#start{
+			background: green;
+			color: black;
+			width:70px;
+			padding: 10px;
+           }
+        #start:hover{
+        	background: yellow;
+        	cursor: pointer;
+        }   
+		#restart{
+			background: red;
+			color: black;
+			width:70px;
+			padding: 10px;
+           }
+        #restart:hover{
+        	background: yellow;
+        	cursor: pointer;
+        }   
+        #score{
+        	background: red;
+			color: black;
+			width:70px;
+			padding: 10px;
+        }
+        #score:hover{
+        	background: yellow;
+        	cursor: pointer;
+        } 
+        #difficultyLevel{
+        	background: red;
+			color: black;
+			width:150px;
+			padding: 10px;
+        }
+        #option-1 {
+  color:black ;
+background: red;
+}
+#option-2 {
+  color:black ;
+background: red;
+}
+
+#option-3 {
+  color:black;
+  background: red;
+}
+.Audio{
+	  color:black;
+  background: red;
+  padding: 10px;
+}
+.Audio:hover{
+        	background: yellow;
+        	cursor: pointer;
+        } 
+        #enemy{
+        background: red;
+		color: black;
+		padding: 10px;
+        }
+#enemy:hover{
+        	background: yellow;
+        	cursor: pointer;
+        } 
+        #score{
+        background: red;
+    color: black;
+    padding: 10px;
+        }
+#score:hover{
+          background: yellow;
+          cursor: pointer;
+        } 
